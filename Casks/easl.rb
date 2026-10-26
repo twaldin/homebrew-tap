@@ -1,7 +1,7 @@
 # Written by twaldin/easl's Release workflow (scripts/homebrew-cask.sh); the next release replaces it.
 cask "easl" do
-  version "0.3.1"
-  sha256 "c8fec2158892655e9472b202309fa9e7eef41186c1feaa7cf2e14f51543d1f6b"
+  version "0.3.2"
+  sha256 "9f952bc49982cf75ebd46513e5fa564731d7f59b2ec95ec8d05a8f92e2c3ae4d"
 
   url "https://github.com/twaldin/easl/releases/download/v#{version}/easl-#{version}.zip"
   name "easl"
@@ -43,7 +43,7 @@ cask "easl" do
   ]
 
   caveats <<~CAVEATS
-    Terminal tiles need zmx; the easl CLI and agent integrations need bun:
+    Terminal tiles need zmx; the easl CLI, agent integrations, and host-file helpers need Bun 1.4.3 or later:
       brew install neurosnap/tap/zmx oven-sh/bun/bun
 
     For omp, link easl's extension:
