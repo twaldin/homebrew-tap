@@ -1,7 +1,7 @@
 # Written by twaldin/easl's Release workflow (scripts/homebrew-cask.sh); the next release replaces it.
 cask "easl" do
-  version "0.3.7"
-  sha256 "40c97cb761166d6bdf4185a7874a3532fa1a3ae95e966a6b0b71894329beead4"
+  version "0.3.8"
+  sha256 "31a7437886a0ddfe1d85bcd4b047c34cf6390ada3be308dd2198cd7785be6f50"
 
   url "https://github.com/twaldin/easl/releases/download/v#{version}/easl-#{version}.zip"
   name "easl"
